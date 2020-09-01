@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="8" total="14" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="51161" started-at="2020-09-01T17:11:07Z" finished-at="2020-09-01T17:11:58Z">
+    <groups>
+    </groups>
+    <test name="chromeBrowser" duration-ms="51161" started-at="2020-09-01T17:11:07Z" finished-at="2020-09-01T17:11:58Z">
+      <class name="com.SwitchED.TestCases.TC_02_SignUP">
+        <test-method status="PASS" signature="validatingSignUpPage()[pri:2, instance:com.SwitchED.TestCases.TC_02_SignUP@645aa696]" name="validatingSignUpPage" duration-ms="2446" started-at="2020-09-01T17:11:23Z" finished-at="2020-09-01T17:11:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingSignUpPage -->
+        <test-method status="PASS" signature="getITestReults(org.testng.ITestResult)[pri:0, instance:com.SwitchED.TestCases.TC_02_SignUP@645aa696]" name="getITestReults" is-config="true" duration-ms="0" started-at="2020-09-01T17:11:26Z" finished-at="2020-09-01T17:11:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatingSignUpPage status=SUCCESS method=TC_02_SignUP.validatingSignUpPage()[pri:2, instance:com.SwitchED.TestCases.TC_02_SignUP@645aa696] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getITestReults -->
+        <test-method status="PASS" signature="SignUpPage_validatingTermsAndCondition()[pri:3, instance:com.SwitchED.TestCases.TC_02_SignUP@645aa696]" name="SignUpPage_validatingTermsAndCondition" duration-ms="5299" started-at="2020-09-01T17:11:26Z" finished-at="2020-09-01T17:11:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpPage_validatingTermsAndCondition -->
+        <test-method status="PASS" signature="getITestReults(org.testng.ITestResult)[pri:0, instance:com.SwitchED.TestCases.TC_02_SignUP@645aa696]" name="getITestReults" is-config="true" duration-ms="4" started-at="2020-09-01T17:11:31Z" finished-at="2020-09-01T17:11:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SignUpPage_validatingTermsAndCondition status=SUCCESS method=TC_02_SignUP.SignUpPage_validatingTermsAndCondition()[pri:3, instance:com.SwitchED.TestCases.TC_02_SignUP@645aa696] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getITestReults -->
+        <test-method status="PASS" signature="validatingSignInLink()[pri:4, instance:com.SwitchED.TestCases.TC_02_SignUP@645aa696]" name="validatingSignInLink" duration-ms="2226" started-at="2020-09-01T17:11:31Z" finished-at="2020-09-01T17:11:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingSignInLink -->
+        <test-method status="PASS" signature="getITestReults(org.testng.ITestResult)[pri:0, instance:com.SwitchED.TestCases.TC_02_SignUP@645aa696]" name="getITestReults" is-config="true" duration-ms="4" started-at="2020-09-01T17:11:33Z" finished-at="2020-09-01T17:11:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatingSignInLink status=SUCCESS method=TC_02_SignUP.validatingSignInLink()[pri:4, instance:com.SwitchED.TestCases.TC_02_SignUP@645aa696] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getITestReults -->
+        <test-method status="PASS" signature="validatingSignUpFunctionality()[pri:5, instance:com.SwitchED.TestCases.TC_02_SignUP@645aa696]" name="validatingSignUpFunctionality" duration-ms="12201" started-at="2020-09-01T17:11:33Z" finished-at="2020-09-01T17:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingSignUpFunctionality -->
+        <test-method status="PASS" signature="getITestReults(org.testng.ITestResult)[pri:0, instance:com.SwitchED.TestCases.TC_02_SignUP@645aa696]" name="getITestReults" is-config="true" duration-ms="0" started-at="2020-09-01T17:11:45Z" finished-at="2020-09-01T17:11:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatingSignUpFunctionality status=SUCCESS method=TC_02_SignUP.validatingSignUpFunctionality()[pri:5, instance:com.SwitchED.TestCases.TC_02_SignUP@645aa696] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getITestReults -->
+      </class> <!-- com.SwitchED.TestCases.TC_02_SignUP -->
+      <class name="com.SwitchED.TestCases.TC_03_SignIn">
+        <test-method status="PASS" signature="SignInFunctionality()[pri:6, instance:com.SwitchED.TestCases.TC_03_SignIn@6caf0677]" name="SignInFunctionality" duration-ms="12387" started-at="2020-09-01T17:11:45Z" finished-at="2020-09-01T17:11:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignInFunctionality -->
+        <test-method status="PASS" signature="getITestReults(org.testng.ITestResult)[pri:0, instance:com.SwitchED.TestCases.TC_03_SignIn@6caf0677]" name="getITestReults" is-config="true" duration-ms="4" started-at="2020-09-01T17:11:58Z" finished-at="2020-09-01T17:11:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SignInFunctionality status=SUCCESS method=TC_03_SignIn.SignInFunctionality()[pri:6, instance:com.SwitchED.TestCases.TC_03_SignIn@6caf0677] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getITestReults -->
+      </class> <!-- com.SwitchED.TestCases.TC_03_SignIn -->
+      <class name="com.SwitchED.TestCases.TC_01_Homepage">
+        <test-method status="PASS" signature="reportSetup()[pri:0, instance:com.SwitchED.TestCases.TC_01_Homepage@5b218417]" name="reportSetup" is-config="true" duration-ms="538" started-at="2020-09-01T17:11:06Z" finished-at="2020-09-01T17:11:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetup -->
+        <test-method status="PASS" signature="browserSetup(java.lang.String)[pri:0, instance:com.SwitchED.TestCases.TC_01_Homepage@5b218417]" name="browserSetup" is-config="true" duration-ms="16236" started-at="2020-09-01T17:11:07Z" finished-at="2020-09-01T17:11:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method status="PASS" signature="ValidatingTitleOfTheHomePage()[pri:1, instance:com.SwitchED.TestCases.TC_01_Homepage@5b218417]" name="ValidatingTitleOfTheHomePage" duration-ms="182" started-at="2020-09-01T17:11:23Z" finished-at="2020-09-01T17:11:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatingTitleOfTheHomePage -->
+        <test-method status="PASS" signature="getITestReults(org.testng.ITestResult)[pri:0, instance:com.SwitchED.TestCases.TC_01_Homepage@5b218417]" name="getITestReults" is-config="true" duration-ms="8" started-at="2020-09-01T17:11:23Z" finished-at="2020-09-01T17:11:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidatingTitleOfTheHomePage status=SUCCESS method=TC_01_Homepage.ValidatingTitleOfTheHomePage()[pri:1, instance:com.SwitchED.TestCases.TC_01_Homepage@5b218417] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getITestReults -->
+        <test-method status="PASS" signature="browserEnd()[pri:0, instance:com.SwitchED.TestCases.TC_01_Homepage@5b218417]" name="browserEnd" is-config="true" duration-ms="0" started-at="2020-09-01T17:11:58Z" finished-at="2020-09-01T17:11:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserEnd -->
+        <test-method status="PASS" signature="reportEnd()[pri:0, instance:com.SwitchED.TestCases.TC_01_Homepage@5b218417]" name="reportEnd" is-config="true" duration-ms="2830" started-at="2020-09-01T17:11:58Z" finished-at="2020-09-01T17:12:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportEnd -->
+      </class> <!-- com.SwitchED.TestCases.TC_01_Homepage -->
+    </test> <!-- chromeBrowser -->
+  </suite> <!-- Suite -->
+</testng-results>

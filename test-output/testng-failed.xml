@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="chromeBrowser(failed)" parallel="tests">
+    <parameter name="browsersNames" value="chrome"/>
+    <classes>
+      <class name="com.SwitchED.TestCases.TC_02_SignUP">
+        <methods>
+          <include name="validatingSignUpFunctionality"/>
+          <include name="getITestReults"/>
+          <include name="validatingSignInLink"/>
+          <include name="reportSetup"/>
+          <include name="reportEnd"/>
+          <include name="SignUpPage_validatingTermsAndCondition"/>
+          <include name="browserSetup"/>
+          <include name="browserEnd"/>
+        </methods>
+      </class> <!-- com.SwitchED.TestCases.TC_02_SignUP -->
+      <class name="com.SwitchED.TestCases.TC_03_SignIn">
+        <methods>
+          <include name="SignInFunctionality"/>
+          <include name="getITestReults"/>
+          <include name="reportSetup"/>
+          <include name="reportEnd"/>
+          <include name="browserSetup"/>
+          <include name="browserEnd"/>
+        </methods>
+      </class> <!-- com.SwitchED.TestCases.TC_03_SignIn -->
+    </classes>
+  </test> <!-- chromeBrowser(failed) -->
+</suite> <!-- Failed suite [Suite] -->
