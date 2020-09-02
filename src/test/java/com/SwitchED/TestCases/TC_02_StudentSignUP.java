@@ -9,7 +9,7 @@ import com.SwitchED.PageObjects.SignUpPage;
 import com.SwitchED.PageObjects.ThankYou_RegistrationPage;
 import com.aventstack.extentreports.Status;
 
-public class TC_02_SignUP extends Baseclass 
+public class TC_02_StudentSignUP extends Baseclass 
 {	
 	public static HomePage hp;
 	public static SignUpPage su;

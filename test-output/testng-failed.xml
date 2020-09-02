@@ -4,28 +4,16 @@
   <test thread-count="5" name="chromeBrowser(failed)" parallel="tests">
     <parameter name="browsersNames" value="chrome"/>
     <classes>
-      <class name="com.SwitchED.TestCases.TC_02_SignUP">
+      <class name="com.SwitchED.TestCases.TC_04_ClassEnrol">
         <methods>
-          <include name="validatingSignUpFunctionality"/>
-          <include name="getITestReults"/>
-          <include name="validatingSignInLink"/>
-          <include name="reportSetup"/>
-          <include name="reportEnd"/>
-          <include name="SignUpPage_validatingTermsAndCondition"/>
-          <include name="browserSetup"/>
-          <include name="browserEnd"/>
-        </methods>
-      </class> <!-- com.SwitchED.TestCases.TC_02_SignUP -->
-      <class name="com.SwitchED.TestCases.TC_03_SignIn">
-        <methods>
-          <include name="SignInFunctionality"/>
+          <include name="enrolClass"/>
           <include name="getITestReults"/>
           <include name="reportSetup"/>
           <include name="reportEnd"/>
           <include name="browserSetup"/>
           <include name="browserEnd"/>
         </methods>
-      </class> <!-- com.SwitchED.TestCases.TC_03_SignIn -->
+      </class> <!-- com.SwitchED.TestCases.TC_04_ClassEnrol -->
     </classes>
   </test> <!-- chromeBrowser(failed) -->
 </suite> <!-- Failed suite [Suite] -->

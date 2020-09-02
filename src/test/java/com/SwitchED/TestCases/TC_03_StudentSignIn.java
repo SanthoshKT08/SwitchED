@@ -6,7 +6,7 @@ import com.SwitchED.Generics.Baseclass;
 import com.SwitchED.PageObjects.SignIn;
 import com.aventstack.extentreports.Status;
 
-public class TC_03_SignIn extends Baseclass {
+public class TC_03_StudentSignIn extends Baseclass {
 
 	public static SignIn si;
 	public static TC_01_Homepage t1;

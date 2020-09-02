@@ -17,11 +17,20 @@ public class HomePage {
 	@FindBy(xpath ="//span[@class='d-none d-sm-inline-block'][contains(text(),'Sign Up')]")
 	private WebElement signUpbtn;
 	
+	@FindBy(xpath = "//a[contains(text(),'Classrooms')]")
+	private WebElement classroomsBtn;
+	
 	public void clickOnSignUpBtn(WebDriver driver)
 	{
 		signUpbtn.click();
 		
 		FileUtilities.verifyTitlePage(driver, "Welcome");
+	}
+	
+	public void clickOnClassRoom(WebDriver driver)
+	{
+		classroomsBtn.click();
+		FileUtilities.verifyTextMessage(driver, "//h2[contains(text(),'Classrooms')]", "Classrooms");
 	}
 	
 }
