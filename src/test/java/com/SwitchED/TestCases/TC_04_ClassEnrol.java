@@ -36,9 +36,13 @@ public class TC_04_ClassEnrol extends Baseclass {
 	    test.log(Status.INFO, "System should redirected to Razorpay");
 	    rp = new RazorPay(driver);
 	    rp.clickOnPayNow();
+	    driver.switchTo().frame(0);
 	    rp.enterPhoneNumber(driver, "7904122045");
 	    rp.enterEmailAddress(driver, "sa@gmail.com");
 	    rp.clickOnProceed(driver);
+	    rp.clickOnNetBanling();
+	    rp.clickOnSBI(driver);
+	    rp.ClickOnPay();
 	}
 
 }

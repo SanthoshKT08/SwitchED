@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.SwitchED.Generics.FileUtilities;
+
 public class RazorPay {
 	
 	public RazorPay(WebDriver driver) 
@@ -24,11 +26,14 @@ public class RazorPay {
 	@FindBy(xpath = "//*[@id=\"footer-cta\"]")
 	private WebElement proceed;
 	
-	@FindBy(xpath = "/html/body/div[3]/iframe")
-	private WebElement iframeMob;
+	@FindBy(xpath = "//*[@id=\"form-common\"]/div[1]/div/div/div[2]/div/div/button[3]/div/div/div[1]")
+	private WebElement netBanking;
 	
-	@FindBy(xpath = "/html/body/div[3]/iframe")
-	private WebElement iframeEmail;
+	@FindBy(xpath = "//*[@id=\"bank-item-SBIN\"]/label/div/img")
+	private WebElement SBI;
+	
+	@FindBy(xpath = "//*[@id=\"footer\"]/span[2]")
+	private WebElement Pay;
 	
 	public void clickOnPayNow()
 	{
@@ -37,24 +42,36 @@ public class RazorPay {
 	
 	public void enterPhoneNumber(WebDriver driver,String Mob) throws InterruptedException
 	{
-		driver.switchTo().frame(iframeMob);
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		phoneNumber.clear();
 		phoneNumber.sendKeys(Mob);
 	}
 	
 	public void enterEmailAddress(WebDriver driver, String email) throws InterruptedException
 	{
-		driver.switchTo().frame(iframeEmail);
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		emailAddress.clear();
 		emailAddress.sendKeys(email);
 	}
 	
 	public void clickOnProceed(WebDriver driver)
-	{
-		driver.switchTo().frame(iframeEmail);
+	{ 
 		proceed.click();
+	}
+	
+	public void clickOnNetBanling()
+	{
+		netBanking.click();
+	}
+	
+	public void clickOnSBI(WebDriver driver)
+	{
+		FileUtilities.handleElementClickInterceptedException(driver, SBI);
+	}
+	
+	public void ClickOnPay()
+	{
+		Pay.click();
 	}
 
 }
